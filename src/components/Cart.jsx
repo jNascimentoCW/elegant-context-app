@@ -1,6 +1,8 @@
 /*eslint-disable*/
 import Modal from "./Modal";
 
+import { useRef } from "react";
+
 import logoImg from "../assets/logo.png";
 
 export default function Cart({ productsOnCart, increaseDecrease }) {
